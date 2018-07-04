@@ -21,12 +21,15 @@ namespace RyanKenward.Strings.Business
             var chars1 = str1.ToArray();
             var chars2 = str2.ToArray();
 
+            // create interweaved pairs of chars. note: cuts off excess chars if one string is longer than the other.
             var chars = chars1.Zip(chars2, (a, b) => new char[] { a, b });
 
+            // combine char pairs into single string.
             var sb = new StringBuilder();
             foreach (var pair in chars)
                 sb.Append(new string(pair));
 
+            // append remaining chars of string to interweaved string if one string is longer.
             sb.Append(AppendSuffix(str1, chars.Count()));
             sb.Append(AppendSuffix(str2, chars.Count()));
 
