@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanKenward.Strings", "RyanKenward.Strings\RyanKenward.Strings.csproj", "{42B09F8D-D999-401C-8176-F0B9D50C0782}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RyanKenward.Strings.Tests", "RyanKenward.Strings.Tests\RyanKenward.Strings.Tests.csproj", "{AAF2F5A3-0B53-42BC-8D01-EAC583F23CFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{42B09F8D-D999-401C-8176-F0B9D50C0782}.Debug|x86.Build.0 = Debug|x86
 		{42B09F8D-D999-401C-8176-F0B9D50C0782}.Release|x86.ActiveCfg = Release|x86
 		{42B09F8D-D999-401C-8176-F0B9D50C0782}.Release|x86.Build.0 = Release|x86
+		{AAF2F5A3-0B53-42BC-8D01-EAC583F23CFB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AAF2F5A3-0B53-42BC-8D01-EAC583F23CFB}.Debug|x86.Build.0 = Debug|Any CPU
+		{AAF2F5A3-0B53-42BC-8D01-EAC583F23CFB}.Release|x86.ActiveCfg = Release|Any CPU
+		{AAF2F5A3-0B53-42BC-8D01-EAC583F23CFB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
